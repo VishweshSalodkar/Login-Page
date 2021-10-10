@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Login page
+</title>
+<style>
+div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+body 
+{	
+background-image: linear-gradient(to bottom right,#33475b,#0033CC, #FF77CC, rgb(255, 122, 89))
+}
+</style>
+</head>
+<body>
+<div><h1><Center>LOGIN/SIGNIN</h1>
+<center><form action="/action_page.php">
+<B><label for="mailid">Mail-id:-</label></b><br>
+  <input type="email" id="mailid" name="mailid"><br>
+  <b><label for="password">Password:-</label></b><br>
+  <input type="password" id="password" name="password"><br><br>
+ <b><input type="submit" value="Submit"></b>
+</form></center></div>
+</body>
